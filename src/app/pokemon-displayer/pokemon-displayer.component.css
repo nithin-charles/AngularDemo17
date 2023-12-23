@@ -22,8 +22,15 @@ div {
   }
 
 .in {
-    margin-top: 20px;
-    height: auto;
+    
+    display: flex;
+    margin: auto;
+    justify-content: center; /* Horizontally center */
+    align-items: center;
+  }
+
+  butt{
+    z-index: -5;
   }
 
 .Poke-Ball{
@@ -46,7 +53,7 @@ div {
     font-size: 20px;
   }
   .in{
-    padding-top: 5%;
+    padding-top: 10%;
   }
 }
 
@@ -60,7 +67,7 @@ div {
     font-size: 20px;
   }
   .in{
-    padding-top: 10px;
+    padding-top: 55px;
   }
 }
 
@@ -76,6 +83,6 @@ div {
   }
 
   .in{
-    padding-top: 5px;
+    padding-top: 40px;
   }
 }
