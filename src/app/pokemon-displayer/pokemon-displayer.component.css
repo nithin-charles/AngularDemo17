@@ -1,0 +1,81 @@
+div {
+    text-align: center;
+
+}
+
+.Pokemon-pic{
+    top:50%;
+    display: flex;
+    margin: auto;
+    width:50%;
+    /* background-color: beige; */
+    vertical-align: middle;
+}
+
+.inputBox{
+    border-radius: 50px;
+    height: 20px;
+    background-color: transparent;
+    border-color: beige;
+    color: text;
+    text-align: center;
+  }
+
+.in {
+    margin-top: 20px;
+    height: auto;
+  }
+
+.Poke-Ball{
+  /* background-image: url(../../assets/Poke_Ball.png);
+  display: flex;
+  margin: auto;
+  background-repeat: no-repeat;
+  vertical-align: middle;
+  width:50%;
+  height: auto; */
+
+}
+
+@media only screen and (max-width: 600px) {
+  .Pokemon-pic {
+    width: 100%;
+  }
+  .inputBox{
+    width: 60%;
+    font-size: 20px;
+  }
+  .in{
+    padding-top: 5%;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  .Pokemon-pic {
+    width: 80%;
+  }
+  .inputBox{
+    width: 30%;
+    
+    font-size: 20px;
+  }
+  .in{
+    padding-top: 10px;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .Pokemon-pic {
+    width: 35%;
+  }
+
+  .inputBox{
+    width: 20%;
+    height: 25px;
+    font-size: 25px;
+  }
+
+  .in{
+    padding-top: 5px;
+  }
+}

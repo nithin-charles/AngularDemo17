@@ -1,0 +1,16 @@
+<!-- <div>Search for Pokemon</div> -->
+<div class="in">
+    <input
+      type="text"
+      class="inputBox"
+      value="Default Text"
+      [(ngModel)]="pokemon"
+      (keyup.enter)="search(pokemon)"
+      (keyup.return)="search(pokemon)"
+      [placeholder]="defaultText"
+    />
+    <!-- <button (click)="search(cityName)">Search</button> -->
+</div>
+<div class="Poke-Ball">
+  <img class="Pokemon-pic" src="{{picPath}}">
+</div>
